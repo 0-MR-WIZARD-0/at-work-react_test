@@ -1,0 +1,1 @@
+export const card_wrapper: string;

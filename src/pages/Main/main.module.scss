@@ -1,0 +1,24 @@
+main{
+    display: flex;
+    justify-content: space-around;
+    &>.wrapper{
+        text-align: center;
+    }
+    &>div>.card_wrapper_archive{
+        border: 1px solid #505d84;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.loader{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    background-color:rgba($color: #505d84, $alpha: 0.3)
+}

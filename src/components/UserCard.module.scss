@@ -1,0 +1,18 @@
+.card_wrapper{
+    border: 1px solid #505d84;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+    &>div{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+        &>a{
+            text-decoration: none;
+            color: #121c36;
+            &:hover{
+                color:#3251ab;
+            }
+        }
+    }
+}
